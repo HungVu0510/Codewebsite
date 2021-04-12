@@ -1,0 +1,284 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Incredible Rubber Ba",
+      "description": "Veritatis ea dolorem in repellat eum et nostrum eum nihil. Sequi ut dolores dolor aut sequi. Illum itaque voluptas rerum omnis voluptas velit accusantium. Enim at facilis velit eos occaecati est illo dolores.",
+      "price": "335.00",
+      "imageUrl": "https://source.unsplash.com/1600x900/?product",
+      "quantity": 58424
+    },
+    {
+      "id": 2,
+      "name": "Generic Fresh Pants",
+      "description": "Eligendi excepturi incidunt id itaque ducimus quibusdam culpa sit. In nihil et voluptatum ut. Et autem facere consequatur non.",
+      "price": "588.00",
+      "imageUrl": "https://source.unsplash.com/1600x900/?product",
+      "quantity": 37490
+    },
+    {
+      "id": 3,
+      "name": "Ergonomic Concrete Chair",
+      "description": "Quas incidunt et pariatur eveniet nostrum mollitia. Est ducimus ab sed perspiciatis molestias eligendi ut dolorem. Enim fugiat dolor veritatis qui quos aut qui ratione. Ducimus ipsa temporibus.",
+      "price": "823.00",
+      "imageUrl": "https://source.unsplash.com/1600x900/?product",
+      "quantity": 55139
+    },
+    {
+      "id": 4,
+      "name": "Rustic Wooden Mouse",
+      "description": "Ducimus vel sit. Maiores cupiditate mollitia vero eum omnis enim. Assumenda itaque iusto perspiciatis pariatur nemo. Voluptatem excepturi consequuntur doloribus sequi fugit sed sequi explicabo in. Omnis error vel. Fugit et voluptas.",
+      "price": "156.00",
+      "imageUrl": "https://source.unsplash.com/1600x900/?product",
+      "quantity": 50666
+    },
+    {
+      "id": 5,
+      "name": "Refined Steel Chair",
+      "description": "Rerum doloremque velit odit velit. Ut in magnam cum repellat adipisci consectetur.",
+      "price": "970.00",
+      "imageUrl": "https://source.unsplash.com/1600x900/?product",
+      "quantity": 60605
+    },
+    {
+      "id": 6,
+      "name": "Ergonomic Concrete Shoes",
+      "description": "Qui consectetur placeat ipsam sed aut distinctio nam voluptatem explicabo. Sed consectetur quidem. Et facere repudiandae consequuntur nam voluptate accusantium eos et. Soluta incidunt suscipit voluptas. Odit nesciunt rerum harum repudiandae velit libero. Maiores quidem facere.",
+      "price": "583.00",
+      "imageUrl": "https://source.unsplash.com/1600x900/?product",
+      "quantity": 19357
+    },
+    {
+      "id": 7,
+      "name": "Generic Wooden Bacon",
+      "description": "Quo eius labore qui in sunt qui libero eligendi. Aut enim aut eaque. Quia ut nihil odit sit porro. Voluptatem eveniet est excepturi aut. Sed fugiat et dolor aut. Non non rerum cupiditate voluptatem accusamus ut non ut.",
+      "price": "306.00",
+      "imageUrl": "https://source.unsplash.com/1600x900/?product",
+      "quantity": 74980
+    },
+    {
+      "id": 8,
+      "name": "Gorgeous Steel Pants",
+      "description": "Asperiores ut nihil corrupti magni. Eos velit deserunt.",
+      "price": "28.00",
+      "imageUrl": "https://source.unsplash.com/1600x900/?product",
+      "quantity": 87110
+    },
+    {
+      "id": 9,
+      "name": "Incredible Cotton Chicken",
+      "description": "In aut delectus laboriosam et illum sit. Deleniti et voluptatibus est. A ut odio ut dolorum eaque voluptatem rerum.",
+      "price": "41.00",
+      "imageUrl": "https://source.unsplash.com/1600x900/?product",
+      "quantity": 49239
+    },
+    {
+      "id": 10,
+      "name": "Fantastic Soft Gloves",
+      "description": "Sint a voluptates occaecati. Recusandae et quam. Ut ea id omnis nostrum.",
+      "price": "749.00",
+      "imageUrl": "https://source.unsplash.com/1600x900/?product",
+      "quantity": 45075
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "username": "admin",
+      "password": "123456",
+      "role": "ADMIN",
+      "token": "token1"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "name": "User 2",
+      "password": "123456",
+      "role": "CUSTOMER",
+      "token": "token2",
+      "email": "user2@gmail.com",
+      "phone": "0123456781",
+      "address": "address1"
+    },
+    {
+      "id": 3,
+      "username": "user3",
+      "name": "User 3",
+      "password": "123456",
+      "role": "CUSTOMER",
+      "token": "token3",
+      "email": "user3@gmail.com",
+      "phone": "0123456782",
+      "address": "address2"
+    },
+    {
+      "id": 4,
+      "username": "user4",
+      "name": "User 4",
+      "password": "123456",
+      "role": "CUSTOMER",
+      "token": "token4",
+      "email": "user4@gmail.com",
+      "phone": "0123456783",
+      "address": "address3"
+    },
+    {
+      "id": 5,
+      "username": "user5",
+      "name": "User 5",
+      "password": "123456",
+      "role": "CUSTOMER",
+      "token": "token5",
+      "email": "user5@gmail.com",
+      "phone": "0123456784",
+      "address": "address4"
+    },
+    {
+      "id": 6,
+      "username": "user6",
+      "name": "User 6",
+      "password": "123456",
+      "role": "CUSTOMER",
+      "token": "token6",
+      "email": "user6@gmail.com",
+      "phone": "0123456785",
+      "address": "address5"
+    },
+    {
+      "id": 7,
+      "username": "user7",
+      "name": "User 7",
+      "password": "123456",
+      "role": "CUSTOMER",
+      "token": "token7",
+      "email": "user7@gmail.com",
+      "phone": "0123456786",
+      "address": "address6"
+    },
+    {
+      "id": 8,
+      "username": "user8",
+      "name": "User 8",
+      "password": "123456",
+      "role": "CUSTOMER",
+      "token": "token8",
+      "email": "user8@gmail.com",
+      "phone": "0123456787",
+      "address": "address7"
+    },
+    {
+      "id": 9,
+      "username": "user9",
+      "name": "User 9",
+      "password": "123456",
+      "role": "CUSTOMER",
+      "token": "token9",
+      "email": "user9@gmail.com",
+      "phone": "0123456788",
+      "address": "address8"
+    },
+    {
+      "id": 10,
+      "username": "user10",
+      "name": "User 10",
+      "password": "123456",
+      "role": "CUSTOMER",
+      "token": "token10",
+      "email": "user10@gmail.com",
+      "phone": "0123456789",
+      "address": "address9"
+    },
+    {
+      "id": 11,
+      "username": "user11",
+      "name": "User 11",
+      "password": "123456",
+      "role": "CUSTOMER",
+      "token": "token11",
+      "email": "user11@gmail.com",
+      "phone": "01234567810",
+      "address": "address10"
+    }
+  ],
+  "orders": [
+    {
+      "id": 2,
+      "userId": 2,
+      "productId": 1,
+      "quantity": 3
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "productId": 2,
+      "quantity": 4
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "productId": 3,
+      "quantity": 5
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "productId": 4,
+      "quantity": 6
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "productId": 5,
+      "quantity": 7
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "productId": 6,
+      "quantity": 8
+    },
+    {
+      "id": 8,
+      "userId": 8,
+      "productId": 7,
+      "quantity": 9
+    },
+    {
+      "id": 9,
+      "userId": 9,
+      "productId": 8,
+      "quantity": 10
+    },
+    {
+      "id": 10,
+      "userId": 10,
+      "productId": 9,
+      "quantity": 11
+    },
+    {
+      "id": 11,
+      "userId": 11,
+      "productId": 10,
+      "quantity": 12
+    },
+    {
+      "userId": "12",
+      "productId": "2",
+      "quantity": 3,
+      "id": 12
+    },
+    {
+      "userId": "2",
+      "productId": "1",
+      "quantity": 10,
+      "id": 13
+    },
+    {
+      "userId": "3",
+      "productId": "3",
+      "quantity": 6,
+      "id": 14
+    }
+  ]
+}

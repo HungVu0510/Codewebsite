@@ -1,0 +1,84 @@
+<div fxLayout="row wrap" fxLayoutAlign=" start" class="gene-form-wizard" class="container">
+    <mat-card fxFlex="100%">
+        <div class="gene-card-title">
+            <h3 class="header">
+                <span *ngIf="ACTION === 'NEW'">New Order</span>
+                <span *ngIf="ACTION === 'EDIT'">Edit Order</span>
+            </h3>
+            <mat-divider></mat-divider>
+        </div>
+        <div class="gene-card-content" *ngIf="ACTION === 'NEW'">
+            <form [formGroup]="formGroup" (ngSubmit)="onSubmit()" class="form">
+                <div fxLayout="row wrap" fxLayoutAlign="space-between center">
+                    <mat-form-field class="form-element" fxFlex.gt-sm="100" fxFlex.gt-xs="100" fxFlex="100">
+                        <input matInput placeholder="User ID" formControlName="userId">
+                        <mat-error
+                                *ngIf="!formGroup.controls['userId'].valid && formGroup.controls['userId'].touched">
+                            User ID is required
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+
+                <div fxLayout="row wrap" fxLayoutAlign="space-between center">
+                    <mat-form-field class="form-element" fxFlex.gt-sm="100" fxFlex.gt-xs="100" fxFlex="100">
+                        <input matInput placeholder="Product ID" formControlName="productId" type="text">
+                    </mat-form-field>
+                </div>
+
+                <div fxLayout="row wrap" fxLayoutAlign="space-between center">
+                    <mat-form-field class="form-element" fxFlex.gt-sm="100" fxFlex.gt-xs="100" fxFlex="100">
+                        <input matInput placeholder="Quantity" formControlName="quantity" type="number">
+                    </mat-form-field>
+                </div>
+
+                <div class="pad-wrap justify-content-end">
+                    <mat-card-actions class="float-right">
+                        <button mat-raised-button color="warn" type="button"
+                                (click)="onCancel()">Cancel</button>
+                        <button mat-raised-button color="primary" type="submit" class="button"
+                                [disabled]="!formGroup.valid">
+                            Submit
+                        </button>
+                    </mat-card-actions>
+                </div>
+
+            </form>
+        </div>
+        <div class="gene-card-content" *ngIf="ACTION === 'EDIT'">
+            <form [formGroup]="formGroup" (ngSubmit)="onSubmit()" class="form">
+                <div fxLayout="row wrap" fxLayoutAlign="space-between center">
+                    <mat-form-field class="form-element" fxFlex.gt-sm="100" fxFlex.gt-xs="100" fxFlex="100">
+                        <input matInput placeholder="User ID" formControlName="userId">
+                        <mat-error
+                                *ngIf="!formGroup.controls['userId'].valid && formGroup.controls['userId'].touched">
+                            User ID is required
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+
+                <div fxLayout="row wrap" fxLayoutAlign="space-between center">
+                    <mat-form-field class="form-element" fxFlex.gt-sm="100" fxFlex.gt-xs="100" fxFlex="100">
+                        <input matInput placeholder="Product ID" formControlName="productId" type="text">
+                    </mat-form-field>
+                </div>
+
+                <div fxLayout="row wrap" fxLayoutAlign="space-between center">
+                    <mat-form-field class="form-element" fxFlex.gt-sm="100" fxFlex.gt-xs="100" fxFlex="100">
+                        <input matInput placeholder="Quantity" formControlName="quantity" type="number">
+                    </mat-form-field>
+                </div>
+
+                <div class="pad-wrap justify-content-end">
+                    <mat-card-actions class="float-right">
+                        <button mat-raised-button color="warn" type="button"
+                                (click)="onCancel()">Cancel</button>
+                        <button mat-raised-button color="primary" type="submit" class="button"
+                                [disabled]="!formGroup.valid">
+                            Submit
+                        </button>
+                    </mat-card-actions>
+                </div>
+            </form>
+        </div>
+    </mat-card>
+</div>
