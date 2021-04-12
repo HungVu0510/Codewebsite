@@ -452,6 +452,7 @@
 .header__cart {
   width: 150px;
   text-align: center;
+  margin-left: 80%;
 }
 .header__cart-wrap {
   position: relative;
@@ -789,6 +790,7 @@
   list-style: none;
 }
 .category-item {
+  cursor: pointer;
   position: relative;
 }
 .category-item:first-child::before {

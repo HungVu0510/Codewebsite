@@ -65,7 +65,7 @@
                 </mat-menu>
             </div>
         </mat-sidenav>
-        <div class="horizontal-toolbar-wrap">
+        <div class="horizontal-toolbar-wrap" *ngIf="user.role === 'ADMIN'">
             <mat-toolbar color="warn">
                 <mat-toolbar-row class="hr-menu-wrap">
                     <div class="horizontal-menu">

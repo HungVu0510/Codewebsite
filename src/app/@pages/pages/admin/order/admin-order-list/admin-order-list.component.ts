@@ -35,14 +35,16 @@ export class AdminOrderListComponent implements OnInit {
       for (const order of this.orders) {
         this.api.getUserById(order.userId).subscribe(user => {
           this.api.getProductById(order.productId).subscribe(product => {
+            this.user = user;
+            this.product = product;
             const d = {
               id: order.id,
               userId: order.userId,
-              userName: user.name,
-              userPhone: user.phone,
+              userName: this.user.name,
+              userPhone: this.user.phone,
               productId: order.productId,
-              productName: product.name,
-              productPrice: product.price,
+              productName: this.product.name,
+              productPrice: this.product.price,
               quantity: order.quantity
             };
             this.data.push(d);

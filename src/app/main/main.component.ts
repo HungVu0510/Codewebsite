@@ -43,6 +43,7 @@ export class MainComponent implements OnInit {
     isMobileStatus: boolean;
     private _routerEventsSubscription: Subscription;
     private _router;
+    user;
     @ViewChild('horizontalSideNav', {static: true}) horizontalSideNav;
 
     chatList: any[] = [
@@ -134,7 +135,7 @@ export class MainComponent implements OnInit {
     }
 
     ngOnInit() {
-
+        this.user = JSON.parse(localStorage.getItem('userProfile'));
         this.routingSub = this.sharedService.ROUTING.subscribe(value => {
 
             this.ROUTING = value.substr(1, value.length)
