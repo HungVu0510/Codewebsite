@@ -20,7 +20,7 @@ export class HorizontalMenuItems {
     pushedAdmin = false;
     public MENUITEMS = [
         {
-            name: 'Animal Shop',
+            name: 'Pet Shop',
             type: 'sub',
             class: 'group-title',
             icon: '',
@@ -57,17 +57,6 @@ export class HorizontalMenuItems {
                         name: 'NAVBAR.Order',
                         type: 'link'
                     }
-                ]
-            });
-            this.MENUITEMS.push({
-                name: 'NAVBAR.Statistical',
-                type: 'sub',
-                class: 'group-title',
-                icon: '',
-                tutorial: 'stepAdminStatistical',
-                children: [
-                    {state: 'admin/statistical/product', name: 'NAVBAR.Product', type: 'link'},
-                    {state: 'admin/statistical/order', name: 'NAVBAR.Order', type: 'link'},
                 ]
             });
         }

@@ -1,3 +1,31 @@
-{{product | json}}
+
+<div class="main__product" style="display:flex; padding: 10px">
+    <div class="main__product-img" style="background-image: url({{product.imageUrl}}); width: 40%;
+    padding-top: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;"></div>
+
+    <div class="main__product-info" style="width: 60%; padding: 10px;">
+        <h1 class="main__product-name">
+             {{product.name}}
+        </h1>
+        <h3 class="main__product-price">{{product.discountPrice}}</h3>
+        <p class="main__product-desc">
+            {{product.description}}
+        </p>
+        <h5>
+            Sold: {{product.sell}}
+        </h5>
+        <h5>
+            From: {{product.from}}
+        </h5>
+        <h5>
+            Quantity: {{product.quantity}}
+        </h5>
+    </div>
+</div>
 <input type="number" [(ngModel)]="quantity">
-<button (click)="addProduct()">Add</button>
+<button style="padding-left: 20px" (click)="addProduct()">Add</button>
+
