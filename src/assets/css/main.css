@@ -391,7 +391,7 @@
   background-color: #3a5a98;
 }
 .auth-form__socials--facebook .auth-form__socials-icon {
-  color: (--white-color);
+  color: var(--white-color);
 }
 .auth-form__socials-title {
   margin: 0 36px;
