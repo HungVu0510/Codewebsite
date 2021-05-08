@@ -6,10 +6,11 @@ import { UserHomeComponent } from './user-home/user-home.component';
 import {FormsModule} from '@angular/forms';
 import {Ng2SearchPipeModule} from 'ng2-search-filter';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { PaymentComponent } from './payment/payment.component';
 
 
 @NgModule({
-  declarations: [UserHomeComponent, ProductDetailComponent],
+  declarations: [UserHomeComponent, ProductDetailComponent, PaymentComponent],
     imports: [
         CommonModule,
         UserRoutingModule,
